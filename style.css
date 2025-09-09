@@ -54,13 +54,11 @@ ul {
     display: flex;
     align-items: center;
 }
-.logo, .dlogo {
+.logo {
     height: 40px;
     margin-right: 15px;
     border-radius: 6px;
     background: #fff;
-    padding: 3px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 .navbar-center {
     flex: 1;
@@ -81,29 +79,4 @@ ul {
 .nav-button:hover {
     background: #005fa3;
     color: #e0e0e0;
-}
-.search-form {
-    display: flex;
-    align-items: center;
-}
-.input {
-    padding: 6px 12px;
-    border-radius: 5px 0 0 5px;
-    border: none;
-    outline: none;
-    font-size: 1rem;
-    background: #f4f4f4;
-}
-.search-btn {
-    padding: 6px 10px;
-    border: none;
-    background: #005fa3;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background 0.2s;
-}
-.search-btn:hover {
-    background: #003e6b;
 }
